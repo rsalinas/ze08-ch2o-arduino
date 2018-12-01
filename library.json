@@ -1,0 +1,27 @@
+{
+    "name": "ze08-ch2o",
+    "description": "Arduino library for Winsen ZE08-CH2family sensors.",
+    "keywords": "ze08-ch2o, Formaldehyde, gas sensor",
+    "authors": [
+        {
+            "name": "Raúl Salinas-Monteagudo",
+            "url": "https://github.com/rsalinas",
+            "maintainer": true
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rsalinas/ze08-ch2o.git"
+    },
+    "version": "0.0.0",
+    "export": {
+        "exclude": [
+            "tests"
+        ]
+    },
+    "frameworks": "arduino",
+    "platforms": "*",
+    "examples": [
+        "examples/*/*.ino"
+    ]
+}
